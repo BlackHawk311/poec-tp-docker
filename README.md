@@ -11,7 +11,7 @@ The aim of this project is to obtain the all-inclusive price from a price and a 
 
 Create a docker image :
 
-    docker build -t {image name}
+    docker build -t {image name} .
 
 Run the command line in terminal :
 
