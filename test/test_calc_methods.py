@@ -1,6 +1,6 @@
 import unittest
 from unittest import TestCase
-from ..src.calc import apply_vat
+from src.calc import apply_vat
 
 
 class TestApplyVat(TestCase):
