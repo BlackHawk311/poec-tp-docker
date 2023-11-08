@@ -2,7 +2,7 @@ def apply_vat(price, percent):
     new_percent = None
     new_price = None
 
-    if isinstance(float(price), str):
+    if isinstance(float(price), str):  #
         raise ValueError(f"{price} is not a number.")  # To change to a try catch
     elif isinstance(float(percent), str):
         raise ValueError(f"{percent} is not a percentage.")  # To change to a try catch
