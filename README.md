@@ -20,3 +20,14 @@ Run the command line in terminal :
 Example :
 
     docker run -it test-calc python app.py 100 20
+
+## How to test
+
+
+Run the command line in terminal :
+
+    docker run -it {image name} python test/test_calc_methods.py
+
+Example :
+
+    docker run -it test-calc python test/test_calc_methods.py
