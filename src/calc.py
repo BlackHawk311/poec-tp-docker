@@ -3,9 +3,9 @@ def apply_vat(price, percent):
     new_price = None
 
     if isinstance(float(price), str):
-        raise ValueError(f"{price} is not a number.") # To change to a try catch
+        raise ValueError(f"{price} is not a number.")  # To change to a try catch
     elif isinstance(float(percent), str):
-        raise ValueError(f"{percent} is not a percentage.") # To change to a try catch
+        raise ValueError(f"{percent} is not a percentage.")  # To change to a try catch
     elif float(price) <= 0:
         return f'The price ($ {price}) is inferior or equal to 0.'
     elif float(percent) <= 0:
@@ -20,7 +20,7 @@ def apply_vat(price, percent):
         return "error"
 
 
-print(apply_vat('hello', 20))
+# print(apply_vat('hello', 20))
 
 # print(apply_vat(0,5.2))
 
